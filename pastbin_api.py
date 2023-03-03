@@ -38,6 +38,5 @@ def post_new_paste(title, body_text, expiration='10M', listed=True):
         print(f'Response code: {resp_msg.status_code} ({resp_msg.reason})')
         return
     
-
 if __name__=="__main__":
     main()

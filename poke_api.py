@@ -2,9 +2,6 @@ import requests
 
 POKE_API_URL = 'https://pokeapi.co/api/v2/pokemon/'
     
-    
-
-
 def get_poke(pokemon):
     """gets a dictorary for a given pokemon name
 

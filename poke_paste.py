@@ -27,7 +27,5 @@ def get_paste_content(pokemon_info, pokemon):
         body_text += "- " + ability["ability"]["name"] + "\n"
     return title, body_text
 
-    
-
 if __name__=="__main__":
     main()
