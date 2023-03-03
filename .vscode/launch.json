@@ -8,10 +8,10 @@
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "program": "pokemon_paste.py",
+            "program": "poke_paste.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["Hippowdon"]
+            "args": ["hippowdon"]
         }
     ]
 }
