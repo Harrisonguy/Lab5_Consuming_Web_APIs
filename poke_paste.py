@@ -16,7 +16,7 @@ def get_search_term():
     if num_params >0:
         return sys.argv[1]
     else:
-        print('error')
+        print('Error: Provide a command line argument.')
         sys.exit(1)
 
 def get_paste_content(pokemon_info, pokemon):
